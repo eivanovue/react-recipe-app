@@ -1,0 +1,144 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: 350px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 2px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  width: 100%;
+}
+
+.btn:hover {
+  color: #ffffff !important;
+  background: #f6b93b;
+  border-color: #f6b93b !important;
+  transition: all 0.4s ease 0s;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.overlay_cal {
+  /* background-color: rgba(0, 0, 0, 0.3);   */
+  width: 100%;
+  height: 80px;
+  top: -370px;
+  text-align: right;
+  z-index: 10;
+  position: relative;
+}
+
+.cal {
+  color: white;
+  font-size: 15rm;
+  font-weight: 1200;
+  letter-spacing: 1px;
+  padding-top: -20px;
+  margin-right: 15px;
+
+}
+
+.overlay_title {
+  margin-top: -192px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 72px;
+  position: relative;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 350px;
+  width: 400px;
+}
+
+.card_content {
+  padding: 1rem;
+  background: white;
+  height: 100%;
+}
+
+.card_title {
+  color: white;
+  font-size: 10rm;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  padding-top:10px;
+  margin-left: 15px;
+}
+
+.card_text {
+  color: #505050;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}

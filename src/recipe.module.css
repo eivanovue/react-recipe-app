@@ -1,0 +1,43 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 40%;
+}
+
+.image{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Rubik', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+.ingredients{
+    max-width: 100%;
+    list-style-type: square;
+
+}
+
+.healthLabels{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    list-style-type: none;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
